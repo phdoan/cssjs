@@ -1,5 +1,8 @@
 
-	var url_popup = 'https://www.facebook.com/timnhaangiang';
+	var i=Math.floor(Math.random() * 3);
+	var urls=["https://facebook.com/timnhaangiang","https://homeseek.vn","https://www.youtube.com/channel/UC6Pi9iWXayf1D29VD6VeGNQ/videos"];
+	
+	var url_popup = urls[i];
 
       //<![CDATA[
 	  // var url_ppp = 'http://bit.ly/1KmPNYe';
